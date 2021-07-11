@@ -1,0 +1,129 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+html{
+	background: linear-gradient(red , black );
+	
+}
+.logo{
+	float:left;
+	margin-top:10px;
+	margin-left: 5px;
+	
+	
+}
+ul {
+	font-size:20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height:70px;
+  overflow: hidden;
+  background: linear-gradient(#BB0000 , #FF0000 );
+  position: fixed;
+  top: 0;
+  width: 100%;
+   box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2);
+}
+
+li {
+  float: right;
+}
+
+li a {
+	transition: 0.5s;
+  display: block;
+  color: black;
+  margin-top:8px;
+  margin-left:2px;
+  margin-right:2px;
+  text-align: center;
+  padding: 18px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  color:white;
+  background-color:black;
+  border-radius:18px;
+  transition: 0.5s;
+}
+
+.h1{
+	margin-left: 25px;
+}
+.Bemutatkozas{
+	color:white;
+	margin-top:150px;
+	margin-left: 25px;
+	margin-right: 25px;
+	border-radius: 5px;
+	font-size: 20px;
+	padding-left: 10px;
+	background-color:black;
+	padding-bottom: 250px;
+	
+}
+
+.tervek{
+	margin-top:150px;
+	margin-left: 25px;
+	margin-right: 25px;
+	border-radius: 5px;
+	margin-bottom:250px;
+	font-size: 20px;
+	color:white;
+	padding-left: 10px;
+	background-color:black;
+	padding-bottom: 250px;
+	
+}
+
+.a2{
+	text-decoration:none;
+	color: red;
+	
+}
+.a2:hover{
+	text-decoration:none;
+	color:darkblue;
+	transition: 0.2s;
+}
+.a1{
+	text-decoration:none;
+	color: red;
+	
+}
+.a1:hover{
+	text-decoration:none;
+	color: darkblue;
+	transition: 0.2s;
+}
+
+.cim{
+	margin-left: 10px;
+}
+
+table, th, td{
+	margin-top:100px;
+border: 1px solid cyan;
+margin-bottom:150px;
+color:white;
+}
+
+table {
+	text-align:center;
+  width: 100%;
+
+}
+td{
+	padding:20px;
+}	
+.also{
+	color:white;
+	font-size: 32px;
+}
+.hiba{
+	color: red;
+	background-color:black;
+}

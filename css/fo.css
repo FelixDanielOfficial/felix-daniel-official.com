@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+html{
+    background: linear-gradient(red,black);
+    text-align: center;
+}
+div{
+    margin-top: 50px;
+    transition: 0.5s;
+}
+div:hover{
+    margin-top: 45px;
+}
+.twtp{
+
+    height: 100px;
+    width: 100px;
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+span{
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 12px;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgb(255, 255, 255);
+}
+span:hover{
+    border-radius: 32px;
+    background-color: rgb(59, 0, 0);
+    color: white;
+}
+.ytp{
+
+    height: 100px;
+    width: 100px;
+    vertical-align: middle;
+}
+.wbp{
+
+    height: 100px;
+    width: 100px;
+    vertical-align: middle;
+}
+
+@media(max-width:426px){
+    span{
+        
+        font-size: 10px;
+    }
+    .ytp{
+
+        height: 50px;
+        width: 50px;
+        vertical-align: middle;
+    }
+    .twtp{
+
+        height: 50px;
+        width: 50px;
+        vertical-align: middle;
+    }
+    .wbp{
+    
+        height: 50px;
+        width: 50px;
+        vertical-align: middle;
+    }
+}
+@media(max-width:320px){
+    div{
+        margin-top: 100px;
+    }
+    span{
+        font-size: 11px;
+    }
+    .ytp{
+        height: 25px;
+        width: 25px;
+        vertical-align: middle;
+    }
+    .twtp{
+
+        height:25px;
+        width:25px;
+        vertical-align: middle;
+    }
+    .wbp{
+    
+        height:25px;
+        width:25px;
+        vertical-align: middle;
+    }
+}
